@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-1-HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
