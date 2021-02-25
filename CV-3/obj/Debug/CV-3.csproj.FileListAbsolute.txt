@@ -1,0 +1,14 @@
+C:\Users\ivoto\source\repos\CV-3\bin\Debug\CV-3.exe.config
+C:\Users\ivoto\source\repos\CV-3\bin\Debug\CV-3.exe
+C:\Users\ivoto\source\repos\CV-3\bin\Debug\CV-3.pdb
+C:\Users\ivoto\source\repos\CV-3\obj\Debug\CV-3.csprojAssemblyReference.cache
+C:\Users\ivoto\source\repos\CV-3\obj\Debug\CV-3.csproj.CoreCompileInputs.cache
+C:\Users\ivoto\source\repos\CV-3\obj\Debug\CV-3.exe
+C:\Users\ivoto\source\repos\CV-3\obj\Debug\CV-3.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\bin\Debug\CV-3.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\bin\Debug\CV-3.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\bin\Debug\CV-3.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\obj\Debug\CV-3.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\obj\Debug\CV-3.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\obj\Debug\CV-3.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV-3\obj\Debug\CV-3.pdb
