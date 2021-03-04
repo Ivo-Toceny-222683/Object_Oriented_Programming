@@ -9,21 +9,22 @@ namespace CV4_StringStatistics
     public class StringStatistics
     {
         private string Text;
+        private StringBuilder smooth = new StringBuilder();
+        private string[] words;
 
         public StringStatistics(string input)
         {
             Text = input;
+            words = TrimTextByWords();
         }
 
-        private string[] TrimTextByWords(string text, StringBuilder smooth)
+        private string[] TrimTextByWords()
         {
             int index = 0;
 
-            string[] LongWords = { };
-
             while (index < Text.Length)
             {
-                if (Text[index] == ' ' || char.IsLetter(text[index]))
+                if (Text[index] == ' ' || char.IsLetter(Text[index]))
                 {
                     smooth.Append(Text[index]);
                 }
@@ -33,9 +34,30 @@ namespace CV4_StringStatistics
                 }
                 index++;
             }
-
+            
             return smooth.ToString().Split(' ');
         }
+
+        public string[] SortedArray()
+        {
+            Array.Sort(words);
+
+            return words;
+        }
+
+        public static void PrintArray(string[] array)
+        {
+            foreach (string word in array)
+            {
+                if (word.Length == 0)
+                {
+                    continue;
+                }
+
+                Console.Write(word + " ");
+            }
+        }
+
         // Solution inspired from Stackoverflow
         public int WordsCount()
         {
@@ -73,11 +95,6 @@ namespace CV4_StringStatistics
             while (index < Text.Length && char.IsWhiteSpace(Text[index]))
             {
                 index++;
-            }
-
-            if (index == Text.Length)
-            {
-                return 0;
             }
 
             while (index < Text.Length)
@@ -151,8 +168,6 @@ namespace CV4_StringStatistics
         public string[] LongestWords()
         {
             int max = 0;
-            StringBuilder smooth = new StringBuilder();
-            string[] words = TrimTextByWords(Text, smooth);
 
             foreach (string str in words)
             {
@@ -175,8 +190,6 @@ namespace CV4_StringStatistics
         public string[] ShortestWords()
         {
             int min = int.MaxValue;
-            StringBuilder smooth = new StringBuilder();
-            string[] words = TrimTextByWords(Text, smooth);
 
             foreach (string str in words)
             {
@@ -201,12 +214,11 @@ namespace CV4_StringStatistics
             return smooth.ToString().Split(' ');
         }
 
+        /* Creates dictionary with unique words, incrementing value if its already there -> returns items with max value items */
         public string[] CountestWords()
         {
             int max = 0;
             Dictionary<string, int> uniqueWords = new Dictionary<string, int>();
-            StringBuilder smooth = new StringBuilder();
-            string[] words = TrimTextByWords(Text, smooth);
 
             foreach (string str in words)
             {
@@ -238,13 +250,13 @@ namespace CV4_StringStatistics
             return smooth.ToString().Split();
         }
 
-        public string[] SortedArray()
+        public bool IsInfected()
         {
-            StringBuilder smooth = new StringBuilder();
-            string[] words = TrimTextByWords(Text, smooth);
-            Array.Sort(words);
-
-            return words;
+            if(Text.Contains("covid") || Text.Contains("covid-19") || Text.Contains("sars-cov-2"))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
