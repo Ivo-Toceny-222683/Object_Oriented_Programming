@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV4-StringStatistics", "CV4-StringStatistics.csproj", "{4D75284E-7B7E-497C-8B92-E227EEB7094F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D75284E-7B7E-497C-8B92-E227EEB7094F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D75284E-7B7E-497C-8B92-E227EEB7094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D75284E-7B7E-497C-8B92-E227EEB7094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D75284E-7B7E-497C-8B92-E227EEB7094F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB31F76-2068-40B8-B5A2-19249C044D19}
+	EndGlobalSection
+EndGlobal

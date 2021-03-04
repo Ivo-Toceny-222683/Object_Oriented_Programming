@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\bin\Debug\CV4-StringStatistics.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\bin\Debug\CV4-StringStatistics.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\bin\Debug\CV4-StringStatistics.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\obj\Debug\CV4-StringStatistics.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\obj\Debug\CV4-StringStatistics.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\obj\Debug\CV4-StringStatistics.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV4-StringStatistics\obj\Debug\CV4-StringStatistics.pdb
