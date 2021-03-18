@@ -23,9 +23,9 @@ namespace CV6_Interfaces.GeoShapes
 
             foreach(GrObject shape in objects)
             {
-                shape.Kresli();
+                shape.Draw();
 
-                if(shape is Object2D)
+                if (shape is Object2D)
                 {
                     Console.WriteLine("Area: {0}\n", ((Object2D)shape).GetArea());
                 }

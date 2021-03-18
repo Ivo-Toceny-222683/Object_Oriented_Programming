@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Squares : Object3D
+    public class Squares : Object3D
     {
-        private readonly double a;
-        private readonly double b;
-        private readonly double c;
+        public double A { get; protected set; }
+        public double B { get; protected set; }
+        public double C { get; protected set; }
 
         public Squares(double a, double b, double c)
         {
-            this.a = a;
-            this.b = b;
-            this.c = c;
+            this.A = a;
+            this.B = b;
+            this.C = c;
         }
 
         public override double GetSurface()
         {
-            return a*b*2 + a*c*2;
+            return A*B*2 + A*C*2;
         }
 
         public override double GetVolume()
         {
-            return a * b * c;
+            return A * B * C;
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Squares: a= {0}, b= {1}, c= {2}", a, b, c);
+            Console.WriteLine("Squares: a= {0}, b= {1}, c= {2}", A, B, C);
         }
     }
 }

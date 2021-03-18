@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Rectangle : Object2D
+    public class Rectangle : Object2D
     {
-        private readonly double a;
-        private readonly double b;
+        public double A { get; protected set; }
+        public double B { get; protected set; }
 
         public Rectangle(double a, double b)
         {
-            this.a = a;
-            this.b = b;
+            this.A = a;
+            this.B = b;
         }
 
         public override double GetArea()
         {
-            return a*b;
+            return A*B;
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Rectangle: a= {0}, b= {1}", a, b);
+            Console.WriteLine("Rectangle: a= {0}, b= {1}", A, B);
         }
     }
 }

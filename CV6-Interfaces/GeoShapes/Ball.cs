@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Ball : Object3D
+    public class Ball : Object3D
     {
-        private readonly double r;
+        public double R { get; protected set; }
 
         public Ball(double r)
         {
-            this.r = r;
+            this.R = r;
         }
 
         public override double GetSurface()
         {
-            return 4 * Math.PI * r * r;
+            return 4 * Math.PI * R * R;
         }
 
         public override double GetVolume()
         {
-            return (4/3.0) * Math.PI * Math.Pow(r, 3);
+            return (4/3.0) * Math.PI * Math.Pow(R, 3);
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Ball: r= {0}", r);
+            Console.WriteLine("Ball: r= {0}", R);
         }
     }
 }

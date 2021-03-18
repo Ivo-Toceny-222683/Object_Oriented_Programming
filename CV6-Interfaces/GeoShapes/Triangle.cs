@@ -6,30 +6,37 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Triangle : Object2D
+    public class Triangle : Object2D
     {
-        private readonly double a;
-        private readonly double b;
-        private readonly double c;
+        public double A { get; protected set; }
+        public double B { get; protected set; }
+        public double C { get; protected set; }
         private readonly double s;
 
 
         public Triangle(double a, double b, double c)
         {
-            this.a = a;
-            this.b = b;
-            this.c = c;
-            s = (a + b + c) / 2;
+            this.A = a;
+            this.B = b;
+            this.C = c;
+            s = (A + B + C) / 2;
         }
 
         public override double GetArea()
         {
-            return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+            return Math.Sqrt(s * (s - A) * (s - B) * (s - C));
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Triangle: a= {0}, b= {1}, c= {2}", a, b, c);
+            if( ((A + B) > C) && ((B + C) > A) && ((A + C) > B) )
+            {
+                Console.WriteLine("Triangle: a= {0}, b= {1}, c= {2}", A, B, C);
+            }
+            else
+            {
+                Console.WriteLine("Triangle: Cant draw this object.");
+            }
         }
     }
 }

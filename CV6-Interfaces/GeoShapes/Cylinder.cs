@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Cylinder : Object3D
+    public class Cylinder : Object3D
     {
-        private readonly double r;
-        private readonly double v;
+        public double R { get; protected set; }
+        public double V { get; protected set; }
 
         public Cylinder(double r, double v)
         {
-            this.r = r;
-            this.v = v;
+            this.R = r;
+            this.V = v;
         }
 
         public override double GetSurface()
         {
-            return 2 * Math.PI * r * (r + v);
+            return 2 * Math.PI * R * (R + V);
         }
 
         public override double GetVolume()
         {
-            return Math.PI * Math.Pow(r, 2) * v;
+            return Math.PI * Math.Pow(R, 2) * V;
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Cylinder: r= {0}, v= {1}", r, v);
+            Console.WriteLine("Cylinder: r= {0}, v= {1}", R, V);
         }
     }
 }

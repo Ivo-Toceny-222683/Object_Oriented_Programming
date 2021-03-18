@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace CV6_Interfaces.GeoShapes
 {
-    class Circle : Object2D
+    public class Circle : Object2D
     {
-        private readonly double r;
-        
+        public double R { get; protected set; }
+
         public Circle(double r)
         {
-            this.r = r;
+            this.R = r;
         }
 
         public override double GetArea()
         {
-            return Math.PI * Math.Pow(r, 2);
+            return Math.PI * Math.Pow(R, 2);
         }
 
-        public override void Kresli()
+        public override void Draw()
         {
-            Console.WriteLine("Circle: r= {0}", r);
+            Console.WriteLine("Circle: r= {0}", R);
         }
     }
 }
