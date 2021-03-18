@@ -10,6 +10,10 @@ namespace CV6_Interfaces.GeoShapes
     {
         static void Main(string[] args)
         {
+            double SumArea = 0;
+            double SumSurface = 0;
+            double SumVolume = 0;
+
             GrObject[] objects = new GrObject[8];
 
             objects[0] = new Ball(3.5);
@@ -28,13 +32,17 @@ namespace CV6_Interfaces.GeoShapes
                 if (shape is Object2D)
                 {
                     Console.WriteLine("Area: {0}\n", ((Object2D)shape).GetArea());
+                    SumArea += ((Object2D)shape).GetArea();
                 }
                 else
                 {
                     Console.WriteLine("Surface: {0}", ((Object3D)shape).GetSurface());
                     Console.WriteLine("Volume: {0}\n", ((Object3D)shape).GetVolume());
+                    SumSurface += ((Object3D)shape).GetSurface();
+                    SumVolume += ((Object3D)shape).GetVolume();
                 }
             }
+            Console.WriteLine("SumArea: {0}\nSumSurface: {1}\nSumVolume: {2}", SumArea, SumSurface, SumVolume);
         }
     }
 }
