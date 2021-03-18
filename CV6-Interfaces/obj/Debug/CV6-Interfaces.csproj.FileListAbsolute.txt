@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\bin\Debug\CV6-Interfaces.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\bin\Debug\CV6-Interfaces.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\bin\Debug\CV6-Interfaces.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\obj\Debug\CV6-Interfaces.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\obj\Debug\CV6-Interfaces.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\obj\Debug\CV6-Interfaces.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV6-Interfaces\obj\Debug\CV6-Interfaces.pdb
