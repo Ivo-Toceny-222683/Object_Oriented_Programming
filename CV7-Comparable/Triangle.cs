@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CV6_Interfaces.GeoShapes
+namespace CV7_Comparable
 {
-    public class Triangle : Object2D
+    class Triangle : Object2D
     {
         public double A { get; protected set; }
         public double B { get; protected set; }
@@ -22,7 +22,7 @@ namespace CV6_Interfaces.GeoShapes
             s = (A + B + C) / 2;
         }
 
-        public override double GetArea()
+        public override double Area()
         {
             if (((A + B) > C) && ((B + C) > A) && ((A + C) > B))
             {
@@ -32,18 +32,18 @@ namespace CV6_Interfaces.GeoShapes
             {
                 return 0;
             }
-            
+
         }
 
-        public override void Draw()
+        public override string ToString()
         {
-            if( ((A + B) > C) && ((B + C) > A) && ((A + C) > B) )
+            if (((A + B) > C) && ((B + C) > A) && ((A + C) > B))
             {
-                Console.WriteLine("Triangle: a= {0}, b= {1}, c= {2}", A, B, C);
+                return String.Format("Triangle: a= {0}, b= {1}, c= {2}, Area={3}", A, B, C, this.Area());
             }
             else
             {
-                Console.WriteLine("Triangle: Cant draw this object.");
+                return String.Format("Triangle: Cant draw this object.");
             }
         }
     }

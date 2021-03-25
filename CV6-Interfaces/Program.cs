@@ -23,7 +23,7 @@ namespace CV6_Interfaces.GeoShapes
             objects[4] = new Pyramid(2, 3, 6.4);
             objects[5] = new Rectangle(4, 6.2);
             objects[6] = new Squares(4.2, 2, 3);
-            objects[7] = new Triangle(5.2, 3.4, 5);
+            objects[7] = new Triangle(1, 1, 3);
 
             foreach(GrObject shape in objects)
             {

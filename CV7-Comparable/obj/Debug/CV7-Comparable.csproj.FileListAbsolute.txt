@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\bin\Debug\CV7-Comparable.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\bin\Debug\CV7-Comparable.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\bin\Debug\CV7-Comparable.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\obj\Debug\CV7-Comparable.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\obj\Debug\CV7-Comparable.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\obj\Debug\CV7-Comparable.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV7-Comparable\obj\Debug\CV7-Comparable.pdb
