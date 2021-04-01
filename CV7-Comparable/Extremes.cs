@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    class Extremes
+    public class Extremes
     {
-        // Code inspired from http://csharphelper.com/blog/2015/05/make-generic-min-and-max-methods-in-c/
         public static T Biggest<T>(T[] items) where T : IComparable
         {
             T max = items[0];
-            for (int i = 1; i < items.Length; i++)
+            foreach (T thing in items)
             {
-                if (items[i].CompareTo(max) > 0)
+                if (thing.CompareTo(max) > 0)
                 {
-                    max = items[i];
+                    max = thing;
                 }
             }        
             return max;
@@ -25,11 +24,11 @@ namespace CV7_Comparable
         public static T Lowest<T>(T[] items) where T : IComparable
         {
             T min = items[0];
-            for (int i = 1; i < items.Length; i++)
+            foreach (T thing in items)
             {
-                if (items[i].CompareTo(min) < 0)
+                if (thing.CompareTo(min) < 0)
                 {
-                    min = items[i];
+                    min = thing;
                 }
             }
             return min;

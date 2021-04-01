@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    class Square : Object2D
+    public class Square : Object2D
     {
         public double A { get; protected set; }
 
         public Square(double a)
         {
-            this.A = a;
+            this.A = (a < 0) ? 0 : a;
         }
 
         public override double Area()

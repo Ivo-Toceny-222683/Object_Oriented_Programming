@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    class Rectangle : Object2D
+    public class Rectangle : Object2D
     {
         public double A { get; protected set; }
         public double B { get; protected set; }
 
         public Rectangle(double a, double b)
         {
-            this.A = a;
-            this.B = b;
+            this.A = (a < 0) ? 0 : a;
+            this.B = (b < 0) ? 0 : b;
         }
 
         public override double Area()

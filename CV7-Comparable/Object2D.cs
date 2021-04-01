@@ -6,23 +6,25 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    abstract class Object2D : I2D, IComparable
+    public abstract class Object2D : I2D, IComparable
     {
         public abstract double Area();
 
-        public int CompareTo(Object obj)
+        public int CompareTo(object obj)
         {
-            double size = ((Object2D)obj).Area() - this.Area();
-            if (size < 0)
+            if(obj == null)
             {
                 return 1;
             }
-            if(size == 0)
+            try
             {
-                return 0;
+                return Area().CompareTo(((Object2D)obj).Area());
             }
-            return -1;
-            
+            catch(ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+                return -1;
+            }          
         }
     }
 }

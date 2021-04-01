@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    interface I2D
+    public interface I2D
     {
         double Area();
     }

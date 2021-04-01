@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    class Circle : Object2D
+    public class Circle : Object2D
     {
         public double R { get; protected set; }
 
         public Circle(double r)
         {
-            this.R = r;
+            this.R = (r < 0) ? 0 : r;
         }
 
         public override double Area()

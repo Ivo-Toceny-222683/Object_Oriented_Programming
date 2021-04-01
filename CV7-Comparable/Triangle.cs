@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CV7_Comparable
 {
-    class Triangle : Object2D
+    public class Triangle : Object2D
     {
         public double A { get; protected set; }
         public double B { get; protected set; }
@@ -16,9 +16,9 @@ namespace CV7_Comparable
 
         public Triangle(double a, double b, double c)
         {
-            this.A = a;
-            this.B = b;
-            this.C = c;
+            this.A = (a < 0) ? 0 : a;
+            this.B = (b < 0) ? 0 : b;
+            this.C = (c < 0) ? 0 : c;
             s = (A + B + C) / 2;
         }
 

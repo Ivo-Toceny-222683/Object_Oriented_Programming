@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\bin\Debug\CV8-Files.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\bin\Debug\CV8-Files.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\bin\Debug\CV8-Files.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\obj\Debug\CV8-Files.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\obj\Debug\CV8-Files.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\obj\Debug\CV8-Files.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV8-Files\obj\Debug\CV8-Files.pdb
