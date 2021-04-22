@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="School" Class="SchoolDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\School.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="CV11_LINQ_TO_SQL.Properties.Settings" SettingsPropertyName="SchoolConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ratings" Member="Ratings">
+    <Type Name="Rating">
+      <Column Name="PersonSub" Type="System.Int32" DbType="Int" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="DateofRate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Rating" Member="Rating1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="SignedSubject_Rating" Member="SignedSubject" ThisKey="PersonSub" OtherKey="PersonSub" Type="SignedSubject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SignedSubjects" Member="SignedSubjects">
+    <Type Name="SignedSubject">
+      <Column Name="PersonSub" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Shortage" Type="System.String" DbType="VarChar(50)" CanBeNull="false" />
+      <Association Name="SignedSubject_Rating" Member="Ratings" ThisKey="PersonSub" OtherKey="PersonSub" Type="Rating" />
+      <Association Name="Student_SignedSubject" Member="Student" ThisKey="ID" OtherKey="ID" Type="Student" IsForeignKey="true" />
+      <Association Name="Subject_SignedSubject" Member="Subject" ThisKey="Shortage" OtherKey="Shortage" Type="Subject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Students" Member="Students">
+    <Type Name="Student">
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SurName" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Student_SignedSubject" Member="SignedSubjects" ThisKey="ID" OtherKey="ID" Type="SignedSubject" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Subjects" Member="Subjects">
+    <Type Name="Subject">
+      <Column Name="Shortage" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubName" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Association Name="Subject_SignedSubject" Member="SignedSubjects" ThisKey="Shortage" OtherKey="Shortage" Type="SignedSubject" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Quantity" Member="Quantities">
+    <Type Name="Quantity">
+      <Column Name="Shortage" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NumOfStudents" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

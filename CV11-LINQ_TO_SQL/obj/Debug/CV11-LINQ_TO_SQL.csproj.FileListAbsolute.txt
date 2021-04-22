@@ -1,0 +1,9 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\bin\Debug\CV11-LINQ_TO_SQL.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\bin\Debug\CV11-LINQ_TO_SQL.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\bin\Debug\CV11-LINQ_TO_SQL.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\obj\Debug\CV11-LINQ_TO_SQL.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\obj\Debug\CV11-LINQ_TO_SQL.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\obj\Debug\CV11-LINQ_TO_SQL.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\obj\Debug\CV11-LINQ_TO_SQL.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\bin\Debug\School.mdf
+D:\Documents\Toceny_222683\Object_Oriented_Programming\CV11-LINQ_TO_SQL\bin\Debug\School_log.ldf
