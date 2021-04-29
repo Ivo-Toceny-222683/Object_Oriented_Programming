@@ -1,0 +1,15 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\bin\Debug\WCF-WPF-Calculator.exe.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\bin\Debug\WCF-WPF-Calculator.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\bin\Debug\WCF-WPF-Calculator.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\MainWindow.g.cs
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\App.g.cs
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator_MarkupCompile.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator_MarkupCompile.lref
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\MainWindow.baml
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.g.resources
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF_WPF_Calculator.Properties.Resources.resources
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.csproj.GenerateResource.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.exe
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCF-WPF-Calculator\WCF-WPF-Calculator\obj\Debug\WCF-WPF-Calculator.pdb

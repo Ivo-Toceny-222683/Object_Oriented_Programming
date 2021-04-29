@@ -1,0 +1,7 @@
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\obj\Debug\WCFCalculate.csprojAssemblyReference.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\obj\Debug\WCFCalculate.csproj.CoreCompileInputs.cache
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\bin\WCFCalculate.dll.config
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\bin\WCFCalculate.dll
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\bin\WCFCalculate.pdb
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\obj\Debug\WCFCalculate.dll
+D:\Documents\Toceny_222683\Object_Oriented_Programming\WCFCalculate\WCFCalculate\obj\Debug\WCFCalculate.pdb
